@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 .env
+
+# Testing and temporary files
+src/api/testRunner.js
+src/api/test*.js
+**/temp-*.js
+**/check-*.js
