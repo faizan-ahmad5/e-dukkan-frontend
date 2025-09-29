@@ -4,27 +4,27 @@ import apiClient from "../apiClient.js";
 export const imageAPI = {
   // Product images
   uploadProductImage: (formData) =>
-    apiClient.post("/api/images/upload/product", formData, {
+    apiClient.post("/images/upload/product", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     }),
   uploadProductImages: (formData) =>
-    apiClient.post("/api/images/upload/product", formData, {
+    apiClient.post("/images/upload/product", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     }),
 
   // Avatar images
   uploadAvatar: (formData) =>
-    apiClient.post("/api/images/upload/avatar", formData, {
+    apiClient.post("/images/upload/avatar", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     }),
 
   // Review images
   uploadReviewImage: (formData) =>
-    apiClient.post("/api/images/upload/review", formData, {
+    apiClient.post("/images/upload/review", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     }),
   uploadReviewImages: (formData) =>
-    apiClient.post("/api/images/upload/review", formData, {
+    apiClient.post("/images/upload/review", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     }),
 

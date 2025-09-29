@@ -11,6 +11,7 @@ import wishlistAPI from "./services/wishlistAPI.js";
 import reviewAPI from "./services/reviewAPI.js";
 import paymentAPI from "./services/paymentAPI.js";
 import imageAPI from "./services/imageAPI.js";
+import { categoriesAPI } from "./services/categoriesAPI.js";
 
 // Export the base API client
 export { apiClient };
@@ -26,6 +27,7 @@ export {
   reviewAPI,
   paymentAPI,
   imageAPI,
+  categoriesAPI,
 };
 
 // Default export for convenience
@@ -39,4 +41,5 @@ export default {
   reviews: reviewAPI,
   payments: paymentAPI,
   images: imageAPI,
+  categories: categoriesAPI,
 };
